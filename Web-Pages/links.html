@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="icon" href="linkfav.png">
+    <meta charset="utf-8">
+    <title>My Link Page</title>
+  </head>
+  <body>
+    <!-- When image is in same file folder than only image name with ext. is needed.. -->
+    <h1><p>Hyperlinks</p></h1>
+    <p> Knowing how to link your code to other document is important</p>
+    <div id="absolute">
+    <h2><p>Absolute References</p></h2>
+    <p>html is an absolute reference. Absolute references always begin with the protocol name. An absolute reference is the complete address to a web page, just as you'd use in the browser's address bar. Absolute references are used to refer to a site somewhere else on the Internet.</p>
+    <p><ul>
+      <li><a href="https://www.foodpanda.com.bd" alt="Foodpanda weblink">Foodpanda BD</a></li>
+      <li><a href="https://khaasfood.com/" alt="Khaasfood weblink">Khaasfood</a></li>
+      <li><a href="https://www.othoba.com" alt="Othoba weblink">Othoba.com</a></li>
+    </ul></p>
+    <p>A relative reference, unlike the absolute reference, only includes the page name of the web page (if the page is not in a child directory).</p>
+    </div>
+
+    <div id="relative">
+      <h2><p>Relative References</p></h2>
+      <p>Relative references work by assuming the address of the current page. When the user clicks , the browser sees no protocol, so it assumes that market. html is in the same directory on the same server as . Relative references work like directions.</p>
+      <p><ul>
+        <li><a href="Hamburger.png" alt="Hamburger">"McDonald's Best Hamburger of the world"</a></li>
+      </ul></p>
+    </div>
+
+    <div id="image">
+      <h2><p>Images as Links</p></h2>
+      <h4><p>Open in a new tab/window</p></h4>
+      <p>Sometimes we may want the linked page to open in a new browser tab or window. To do this we add target="_blank" in the first section before > . We can do this for both an image or text link. That's it – how to add a text link, image and an image link in HTML.</p>
+      <p><a href="Hamburger.png" alt="Hamburger"><img src="Hamburger.png" width="25%" alt="Burger best"></a></p><br>
+      <p>Image can open in new window</p>
+      <p><a href="Hamburger.png" target="_blank" alt="Hamburger"><img src="Hamburger.png" width="50" height="50" alt="Hamburger"></a></p>
+      <p>We can use that method in any web link of &lt;a&gt; tag</p>
+    </div>
+
+    <div id="video">
+      <h2><p>Video Player</p></h2>
+      <p>This is a autoplay video. So I use autoplay with Loop attribute.</p>
+      <p><video src="foodgif.MOV" width="25%" autoplay loop>Your Browser does not support the <code>video</code> element.
+      </video></p>
+      <p>This is a autoplay video. So I use manual control attribute.</p>
+      <p><video src="foodgif.MOV" width="25%" controls>Your Browser does not support the <code>video</code> element.
+      </video></p>
+    </div>
+    <br>
+
+    <div id="audio">
+      <h2><p>Audio Player</p></h2>
+      <p><audio src="music.ogg" controls>
+        My music full version
+      </audio><br>music full</p>
+      <br>
+      <p><audio src="music.ogg#t=00:12" controls>
+        My music starts at 12 seconds
+      </audio> <br>music after 12 seconds</p>
+    </div>
+
+    <div id="embed">
+      <h2><p>Embedded Links</p></h2>
+      <p>Creating an embedded link with text. A little tougher to define, embedded links are just another way of saying a link that when clicked, leads somewhere else. Embedded links can be more than text though. You can embed an image as a link to another page on the web.</p>
+      <p><ul>
+        <li><a href="#absolute">Absolute References</a></li>
+        <li><a href="#relative">Relative References</a></li>
+        <li><a href="#Image">Images as Links</a></li>
+        <li><a href="#video">Video Player</a></li>
+        <li><a href="#audio">Audio Player</a></li>
+      </ul></p>
+      <p>This is all I got</p>
+    </div>
+
+    <div class="footer">
+      <footer>
+      &copy; All the copyright reserved by me.</footer>
+
+    </div>
+
+  </body>
+</html>
