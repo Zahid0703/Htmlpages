@@ -1,0 +1,35 @@
+header{
+  background: #b2b2b2;
+  font-family: New Roman Times;
+}
+
+h1{
+  color: #FFFFFF;
+  text-align: center;
+  font-variant: all-petite-caps;
+  font-size: 350%;
+}
+
+a{
+  background: #c5c5c5;
+  color: #000000;
+  font-size: 130%;
+}
+
+aside{
+  display: none;
+}
+
+section{
+  background: #7f7f7f;
+  color: #000000;
+  font-family: New Roman Times;
+  font-size: 150%;
+}
+
+h2{
+  color: #000080;
+  font-variant: all-petite-caps;
+  font-family: New Roman Times;
+  font-size: 200%;
+}
