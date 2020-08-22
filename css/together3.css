@@ -2,7 +2,7 @@ body{
   background: #878e81;
   text-align: center;
   margin: 4%;
-  font-size: 150%;
+  font-size: 145%;
 }
 
 header{
@@ -51,6 +51,10 @@ h2{
 
 .whole{
   clear: both;
+}
+
+section p{
+  text-align: left;
 }
 
 details{
